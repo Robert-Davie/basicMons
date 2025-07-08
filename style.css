@@ -1,0 +1,66 @@
+body {
+    background-color: wheat;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: grid;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}
+
+#playerCard {
+    width: 200px;
+    height: 300px;
+    margin: 50px;
+    border: 3px;
+    grid-row: 3;
+    border-color: black;
+    background-color: aliceblue;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resultLabel {
+    height: 50px;
+    border: 3px;
+    grid-row: 5;
+    grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 30px;
+    border-color: black;
+    background-color: skyblue;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#playerAttackLabel {
+    grid-column: 1;
+    font-weight: bold;
+}
+
+#opponentAttackLabel {
+    grid-column: 2;
+    font-weight: bold;
+}
+
+#resetButton {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#attackButton {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#choiceRadio {
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

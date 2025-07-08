@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Mons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label id="playerAttackLabel">
+        player attack = ?
+    </label>
+    <label id="opponentAttackLabel">
+        opponent attack = ?
+    </label>
+    <div id="playerCard">
+        card
+    </div>
+    <div id="actionButtons">
+        <button onclick="reset()" id="resetButton">
+            reset
+        </button>
+        <button onclick="attack()" id="attackButton">
+            attack
+        </button>
+    </div>
+    <fieldset id="choiceRadio">
+        <legend>Select a choice:</legend>
+        <div>
+            <input type="radio" id="choiceA" name="options" value="1" checked />
+            <label for="choiceA" id="choiceALabel">choiceA</label>
+        </div>
+
+        <div>
+            <input type="radio" id="choiceB" name="options" value="2" />
+            <label for="choiceB" id="choiceBLabel">choiceB</label>
+        </div>
+    </fieldset>
+    <label id="resultLabel">
+    </label>
+
+    <script src="main.js"></script>
+</body>
+</html>
